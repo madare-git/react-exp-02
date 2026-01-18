@@ -8,3 +8,5 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+// コンソールで2回表示されるのが嫌だったら、StrictModeを外す（<StrictMode>と</StrictMode>を消す）
+// StrictModeは、開発モードでのみ動作し、本番ビルドには影響しない
