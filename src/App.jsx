@@ -5,8 +5,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import News from './components/News/index.jsx'
 import CalendarItem from './components/CalendarItem/index.jsx'
-import Chart from './components/Chart/index.jsx'
-
+import ChartBar from './components/ChartBar/index.jsx'
+import Header from './layout/Header/index.jsx'
+import SideBar from './layout/SideBar/index.jsx'
 
 function App() {
   // useStateを使って、stateを定義する
@@ -46,7 +47,10 @@ function App() {
       {/*  */}
       <CalendarItem />
       <News />
-      <Chart />
+      <ChartBar />
+      <Header />
+      <SideBar />
+      
 
       <div>
         <p>名前が入ります</p>
