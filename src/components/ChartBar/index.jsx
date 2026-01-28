@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BarChart } from "@mui/x-charts/BarChart";
 import styles from "./style.module.scss";
 
