@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import News from './components/News/index.jsx'
+import CalendarItem from '../../gs_exp/src/components/CalendarItem copy/index.jsx'
 
 function App() {
   // useStateを使って、stateを定義する
@@ -41,6 +42,8 @@ function App() {
   return (
     <>
       {/*  */}
+      <CalendarItem />
+      
       <News />
 
       <div>
