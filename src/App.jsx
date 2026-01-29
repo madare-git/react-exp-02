@@ -76,14 +76,14 @@ function App() {
   return (
     <>
       {/*  */}
-      <h1>データを表示する方法</h1>
+      {/* <h1>データを表示する方法</h1>
        {data.map((item) => (
         <div>
           <p>{item.id}</p>
           <p>{item.title}</p>
           <p>{item.userid}</p>
         </div>
-      ))}
+      ))} */}
 
 
       <BrowserRouter>
